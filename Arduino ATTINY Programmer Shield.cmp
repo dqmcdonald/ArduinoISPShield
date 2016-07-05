@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPcb (2014-02-26 BZR 4721)-product date = Tuesday, 05 July 2016 11:23:58
+
+BeginCmp
+TimeStamp = /577ABBBE;
+Reference = C1;
+ValeurCmp = 100nf;
+IdModule  = discret:C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /577AEEB9;
+Reference = C2;
+ValeurCmp = CP1;
+IdModule  = discret:C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /577AE945;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = discret:C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /577ABD2F;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = discret:LEDV;
+EndCmp
+
+BeginCmp
+TimeStamp = /577ABDF7;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = discret:LEDV;
+EndCmp
+
+BeginCmp
+TimeStamp = /577ABE0C;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = discret:LEDV;
+EndCmp
+
+BeginCmp
+TimeStamp = /577ABB31;
+Reference = IC1;
+ValeurCmp = ATTINY24/44/84-PU;
+IdModule  = dip_sockets:DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /577ABD1B;
+Reference = R1;
+ValeurCmp = 200R;
+IdModule  = discret:R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /577ABDF1;
+Reference = R2;
+ValeurCmp = 220R;
+IdModule  = discret:R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /577ABE06;
+Reference = R3;
+ValeurCmp = 220R;
+IdModule  = discret:R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /577A17C3;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = arduino_shields:ARDUINO_SHIELD_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /577A17E9;
+Reference = U2;
+ValeurCmp = ATTINY25-45-85/DIP-SO;
+IdModule  = dip_sockets:DIP-8__300_ELL;
+EndCmp
+
+EndListe
