@@ -3,9 +3,9 @@
   (general
     (links 27)
     (no_connects 0)
-    (area 64.954 61.454 134.574501 120.978)
+    (area 64.949999 61.454 134.574501 120.978)
     (thickness 1.6)
-    (drawings 6)
+    (drawings 16)
     (tracks 76)
     (zones 0)
     (modules 12)
@@ -66,7 +66,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 3178497)
+      (layerselection 284196865)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.150000)
@@ -88,9 +88,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory Gerber/))
   )
 
   (net 0 "")
@@ -489,10 +489,10 @@
     )
   )
 
-  (module arduino_shields:ARDUINO_SHIELD_2 locked (layer F.Cu) (tedit 4DE3FAAE) (tstamp 577AF193)
+  (module arduino_shields:ARDUINO_SHIELD_2 locked (layer F.Cu) (tedit 577CB5E4) (tstamp 577AF193)
     (at 65.504 120.428)
     (path /577A17C3)
-    (fp_text reference SHIELD1 (at 5.715 -57.15) (layer F.SilkS)
+    (fp_text reference SHIELD1 (at 5.715 -57.15) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_text value ARDUINO_SHIELD (at 10.16 -54.61) (layer F.SilkS) hide
@@ -616,6 +616,16 @@
     )
   )
 
+  (gr_line (start 65 67) (end 65.5 67) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 65 120.5) (end 65 67) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 131.5 120.5) (end 65 120.5) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 131.5 118.5) (end 131.5 120.5) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 134.5 115.5) (end 131.5 118.5) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 134.5 82) (end 134.5 115.5) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 132 79.5) (end 134.5 82) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 132 68.5) (end 132 79.5) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 130.5 67) (end 132 68.5) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 65.5 67) (end 130.5 67) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_text "July 2016 v1.0" (at 89.5 84.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
